@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/style.css">
+    <link rel="shortcut icon" href="/public/assets/icons/ITS_LOGO-removebg-preview.png" type="image/x-icon">
+    <title>Form JSON</title>
+</head>
+<body>
+    <form id="formDatos">
+
+        <h3>Ingrese sus datos</h3>
+
+        <label for="user">Usuario</label>
+        <input class="input" type="text" name="user" >
+        
+        <label for="mail">E-mail</label>
+        <input class="input" type="email" name="mail">
+        
+        <label for="pass">Contraseña</label>
+        <input class="input" type="password" name="pass" >
+
+        <label for="age">Edad</label>
+        <input class="input" type="number" name="age" >
+
+        <label for="sex">Sexo</label>
+        <select name="sex" id="sexSelect">
+            <option value=""></option>
+        </select>
+        
+        <div id="btnDiv">
+            <button class="btn" type="submit">Enviar</button>
+        </div>
+
+    </form>
+
+    <script src="/public/main.js"></script>
+</body>
+</html>

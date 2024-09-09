@@ -1,0 +1,9 @@
+{
+    "sexOptions": [
+      { "id": 1, "label": "Masculino", "value": "masculine" },
+      { "id": 2, "label": "Femenino", "value": "femenine" },
+      { "id": 3, "label": "No binario", "value": "nonBinary" },
+      { "id": 4, "label": "Prefiero no decir", "value": "notDeclared" },
+      { "id": 5, "label": "Otro", "value": "other" }
+    ]
+}
